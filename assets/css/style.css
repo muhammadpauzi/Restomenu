@@ -1,0 +1,47 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+.main{
+    min-height: 100vh;
+}
+
+.btn-my-color,.badge-my-color{
+    color: white !important;
+    background-color: #5947ff !important;
+    border-color: #5947ff !important;
+}
+.btn-my-color:hover,.badge-my-color:hover{
+    background-color: #3f2afc !important;
+    border-color: #3f2afc !important;
+}
+.custom-control-label{
+    -webkit-user-select: none;
+}
+
+.image-kecil{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#imageModal-image{
+    width: 100%;
+}
+
+@media (max-width: 576px){
+    .navbar .nav-item.btn{
+        width: 100%;
+        margin: 3px 0;
+    }
+}
+
+
+/* Pesan */
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+
